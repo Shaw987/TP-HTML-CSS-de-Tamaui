@@ -23,14 +23,41 @@
       </p>
 
       <h1>La clinique de la presqu'île</h1>
-      <img src="image-vairao.webp" />
+      <img src="image-vairao.webp" alt="image de Vairao."/>
+      <h3>Formulaire de contact</h3>
       <form action="" method="get">
         <div>
-            <label for="Nom"> Entrez votre nom:</label>
-            <input type="text" Nom="Nom" id="Nom" required />
+          <label for="Nom"> Entrez votre nom:</label>
+          <input type="text" name="Nom" id="Nom" required />
+        </div>
+        <div>
+          <label for="Prénom"> Entrez votre prénom:</label>
+          <input type="text" name="Prénom" id="Prénom" required />
+        </div>
+        <div>
+          <label for="Email"> Entrez votre adresse mail:</label>
+          <input type="email" name="Nom" id="Nom" required />
+        </div>
+        <div>
+          <label for="patient"
+            >Statut de patient :</label
+          >
+          <select id=""patient" name="statut">
+            <option value="ancient">Ancien</option>
+            <option value="nouveau">Nouveau</option>
+        </select>
+        </div>
+        <div>
+          <label for="Message"> Entrez votre message:</label>
+          <input type="text" name="Message" />
+        </div>
+        <div>
+          <input type="submit" value="Envoyer" />
         </div>
       </form>
     </main>
-    <footer></footer>
+    <footer>
+        <small>Copyright © 2026 taotemaohi.com. Tous droits réservés.</small>
+    </footer>
   </body>
 </html>
