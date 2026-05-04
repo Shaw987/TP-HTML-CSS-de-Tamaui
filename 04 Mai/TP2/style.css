@@ -83,7 +83,30 @@ div {
     color:purple;
 }
 
-.chat {
-    width: 250px;
-    height: auto;
+.box {
+    display:flex;
+    flex-direction:row;
+    align-items:flex-start;
+}
+
+.containchat {
+    display:flex;
+    flex-direction:row;
+    align-items:flex-start;
+}
+
+.imgchat {
+    width: 289px;
+    height: 192px;
+}
+
+figcaption {
+    font-size: 11px;
+}
+
+.kopimi {
+    width: 32px;
+    height: 32px;
+    display: block;
+    margin: auto;
 }
