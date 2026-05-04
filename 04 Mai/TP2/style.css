@@ -1,0 +1,25 @@
+body {
+        width:50%;
+        margin-left:auto;
+        margin-right:auto;
+        font-family: 'Open Sans', Arial;
+}
+
+.top-right {
+    position: sticky;
+    top:0;
+    right:0;
+
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.mfcolor {
+    color:#730000;
+}
+
+.mfcolor2 {
+    color:#c0392b;
+}
