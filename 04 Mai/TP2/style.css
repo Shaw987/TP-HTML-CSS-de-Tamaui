@@ -126,10 +126,27 @@ figcaption {
     cursor:not-allowed;
 }
 
+.square {
+    display:inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 4px;
+}
+
 .color-444 {
     color: #444;
+    font-weight: 800;
+}
+
+.bg-color-444 {
+    background-color: #444;
 }
 
 .color-45 {
     color:#454545;
+    font-weight: bolder;
+}
+
+.bg-color-45 {
+    background-color: #454545;
 }
