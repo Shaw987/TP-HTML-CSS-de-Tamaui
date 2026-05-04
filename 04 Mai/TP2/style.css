@@ -64,7 +64,7 @@ blockquote {
     align-items:flex-start;
 }
 
-.containchat {
+.cat-container {
     display:flex;
     flex-direction:row;
     align-items:flex-start;
@@ -75,7 +75,7 @@ blockquote {
     height:16px;
 }
 
-.imgchat {
+.cat-img {
     width: 289px;
     height: 192px;
 }
@@ -107,11 +107,11 @@ figcaption {
     text-decoration: underline;
 }
 
-.mfcolor {
+.mf-color {
     color:#730000;
 }
 
-.mfcolor2 {
+.mf-color2 {
     color:#c0392b;
     text-decoration: underline;
 }
@@ -126,10 +126,10 @@ figcaption {
     cursor:not-allowed;
 }
 
-.col444 {
+.color-444 {
     color: #444;
 }
 
-.col45 {
+.color-45 {
     color:#454545;
 }
