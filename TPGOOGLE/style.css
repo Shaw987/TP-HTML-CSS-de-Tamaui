@@ -1,0 +1,16 @@
+header {
+    display: flex;
+    justify-content: space-between; /* Ou center, flex-end, etc. */
+    align-items: center; /* Pour centrer verticalement */
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 15px; /* Espacement entre les liens */
+}   
