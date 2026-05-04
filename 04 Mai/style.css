@@ -74,7 +74,7 @@ html, body {
 }
 
 .rectangle {
-    width: 300px;
+    width: 350px;
     height: 80px;
     background-color: palegreen;
     position:relative;
@@ -82,18 +82,25 @@ html, body {
     left:0%;
     border: 3px solid green;
     display:flex;
-    justify-content:center;
+    align-items: center;
 }
 
 .vertgauche {
-    width:80px;
+    width:70px;
     height:80px;
     background-color: green;
     border-radius:10px;
 }
 
 .vertmid {
-    width:80px;
+    width:70px;
+    height:80px;
+    background-color: green;
+    border-radius:10px;
+}
+
+.vertdroite {
+    width:70px;
     height:80px;
     background-color: green;
     border-radius:10px;
