@@ -112,10 +112,19 @@ figcaption {
 }
 
 .blue {
-    color:blue
+    color:blue;
+    cursor: not-allowed;
 }
 
 .purple {
     color:purple;
+    cursor:not-allowed;
 }
 
+.col444 {
+    color: #444;
+}
+
+.col45 {
+    color:#454545;
+}
