@@ -13,18 +13,11 @@
     --dark-emerald:#2d6a4f;
 }
 
-
-@media (min-width:768px) {
-    
-}
-
-@media (min-width:1024px) {
-    
-}
+/* --- importants --- */
 
 .navbar {
     background-color: var(--dark-emerald);
-    padding: 10px 20px;
+    padding: 5px 20px;
     position:sticky;
     top:0;
     --bs-navbar-active-color: white !important;
@@ -41,23 +34,46 @@
 }
 
 #banner-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
-    height: 600px;
-    justify-self: center;
+    height: 80vh;
+    background-image: url('images/kauli.jpg');
+    background-size: cover;
     background-position: center;
-} 
+    background-attachment: fixed;
+}
+
+#banner-text {
+    color: var(--dark-emerald);
+    text-align: center;
+    font-size: 32px;
+}
 
 .description {
     width:80%;
     margin:auto;
 }
 
-.horizontal-nav a {
-    color: var(--sunlit-clay);
-} 
+/* --- Media queries --- */
 
-.footer-col {
-    flex:1;
+@media (min-width:768px) {
+
+}
+
+@media (min-width:1024px) {
+
+}
+
+/* --- utilitaires --- */
+
+.font-flavors {
+    font-family: 'Flavors', cursive;
+}
+
+.font-open-sans {
+    font-family: 'Open Sans', sans-serif;
 }
 
 .text-center {
@@ -75,4 +91,12 @@
 
 .bg-color-turquoise-soft {
     background-color: var(--turquoise-soft);
+}
+
+.horizontal-nav a {
+    color: var(--sunlit-clay);
+}
+
+.footer-col {
+    flex:1;
 }

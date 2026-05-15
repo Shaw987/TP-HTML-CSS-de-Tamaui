@@ -10,6 +10,12 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Flavors&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body class="bg-color-turquoise-soft">
     <header>
@@ -62,15 +68,30 @@
           </div>
           <div class="d-flex gap-3 align-items-center">
             <a href="https://www.instagram.com" target="_blank">
-              <img src="images/instagram.svg" alt="Instagram" width="24" height="24" />
+              <img
+                src="images/instagram.svg"
+                alt="Instagram"
+                width="24"
+                height="24"
+              />
             </a>
             <a href="https://maps.google.com/?q=Teahupoo" target="_blank">
-              <img src="images/google.svg" alt="Google Maps" width="24" height="24" />
+              <img
+                src="images/google.svg"
+                alt="Google Maps"
+                width="24"
+                height="24"
+              />
             </a>
           </div>
         </div>
       </nav>
-      <img id="banner-img" src="images/banner.jpg" />
+      <div id="banner-img">
+        <div id="banner-text">
+          <h1 class="font-flavors">He'e Moana — L'école de surf de Teahupoo Billabong</h1>
+          <p>Venez découvrir la vague légendaire</p>
+        </div>
+      </div>
     </header>
     <main>
       <section class="description">
@@ -99,8 +120,8 @@
       </section>
       <section class="description">
         <div class="flex-between footer-col">
-            <div class=""></div>
-            <div></div>
+          <div class=""></div>
+          <div></div>
         </div>
       </section>
     </main>
@@ -111,8 +132,8 @@
           <a>À propos de He'e Moana</a>
           <p>&copy; 2026 He'e Moana</p>
           <p>
-            He'e Moana — "surfer l'océan" en tahitien — est née à Teahupoo,
-            au cœur de la Polynésie française. Notre école propose des cours
+            He'e Moana — "surfer l'océan" en tahitien — est née à Teahupoo, au
+            cœur de la Polynésie française. Notre école propose des cours
             collectifs et particuliers adaptés à tous les niveaux.
           </p>
           <p>
@@ -120,17 +141,18 @@
             partagent notre amour de l'océan et la culture du surf polynésien.
           </p>
           <p>
-            <a href="#">Mentions légales</a> · <a href="#">Politique de confidentialité RGPD</a>
+            <a href="#">Mentions légales</a> ·
+            <a href="#">Politique de confidentialité RGPD</a>
           </p>
         </div>
         <div class="text-center footer-col">
-            <ul class="no-list">
-                <li><a href="#">Nos installations</a></li>
-                <li><a href="#">L'équipe He'e Moana</a></li>
-                <li><a href="#">Les spots</a></li>
-                <li><a href="#">Cours collectifs de surf</a></li>
-                <li><a href="#">Cours privés de surf</a></li>
-            </ul>
+          <ul class="no-list">
+            <li><a href="#">Nos installations</a></li>
+            <li><a href="#">L'équipe He'e Moana</a></li>
+            <li><a href="#">Les spots</a></li>
+            <li><a href="#">Cours collectifs de surf</a></li>
+            <li><a href="#">Cours privés de surf</a></li>
+          </ul>
         </div>
       </div>
     </footer>
