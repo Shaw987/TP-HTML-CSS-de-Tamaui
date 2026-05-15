@@ -51,6 +51,17 @@
     font-size: 32px;
 }
 
+.btn-surf {
+    background-color: var(--sunlit-clay);
+    color: white;
+    opacity: 0.5;
+}
+
+.btn-surf:hover {
+    border:2px solid #2d6a4f;
+    transition: opacity 1s ease-in-out;
+}
+
 .description {
     width:80%;
     margin:auto;
